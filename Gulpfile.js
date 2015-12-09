@@ -30,6 +30,7 @@ gulp.task('styles',function(){
 		.pipe(sass().on("error",sass.logError))
 		.pipe(autoprefixer())
 		.pipe(gulp.dest('css/'))
+		.pipe(rename({suffix:'.min'}))
 		.pipe(minifycss())
 		.pipe(gulp.dest('css/'))
 
