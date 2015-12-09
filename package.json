@@ -1,0 +1,33 @@
+{
+  "name": "jscalc",
+  "version": "1.0.0",
+  "description": "A simple calculator created with javascript using node and various open-source modules",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaydurant/JS-Calculator.git"
+  },
+  "author": "Jason Durant",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jaydurant/JS-Calculator/issues"
+  },
+  "homepage": "https://github.com/jaydurant/JS-Calculator#readme",
+  "devDependencies": {
+    "browserify": "^12.0.1",
+    "del": "^2.2.0",
+    "gulp": "^3.9.0",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-jshint": "^2.0.0",
+    "gulp-livereload": "^3.8.1",
+    "gulp-minify-css": "^1.2.2",
+    "gulp-sass": "^2.1.0",
+    "gulp-uglify": "^1.5.1",
+    "jshint": "^2.8.0",
+    "vinyl-transform": "^1.0.0"
+  }
+}
