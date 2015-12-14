@@ -5,9 +5,75 @@
 	<meta name="description" content="A single page application featuring a functioning calculator made with javascript">
 	<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=yes">
 	<title>JS Calculator</title>
-	<link rel="stylesheet" type="text/css" href="css/page.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.min.css">
 </head>
 <body>
+	<section class="container-fluid text-center">
+		<div class="mfc-container text-center">
+			<button type="button" id="mfc-btn" class="btn btn-danger mfc-btn">View Manufacturer Info</button>
+		</div>
+		<div class="calculator-container center-block">
+			<div class="side front text-center">
+				<h1>Pocket Calculator</h1>
+				<p><abbr title="javascript">JS</abbr> Powered</p>
+				<div id="calc-screen" class="calc-screen well text-right"></div>
+				<div id="button-container" class="row border-red text-center buttons-container">
+					<div class="col-xs-3">
+						<button type="button" class="btn btn-danger">AC</button>
+						<button type="button" class="btn btn-primary">7</button>
+						<button type="button" class="btn btn-primary">4</button>
+						<button type="button" class="btn btn-primary">1</button>
+						<button type="button" class="btn btn-primary">0</button>
+					</div>
+					<div class="col-xs-3">
+						<button type="button" class="btn btn-danger">CE</button>
+						<button type="button" class="btn btn-primary">8</button>
+						<button type="button" class="btn btn-primary">5</button>
+						<button type="button" class="btn btn-primary">2</button>
+						<button type="button" class="btn btn-primary">.</button>
+					</div>
+					<div class="col-xs-3">
+						<button type="button" class="btn btn-info">%</button>
+						<button type="button" class="btn btn-primary">9</button>
+						<button type="button" class="btn btn-primary">6</button>
+						<button type="button" class="btn btn-primary">3</button>
+						<button type="button" class="btn btn-info">=</button>
+						
+					</div>
+					<div class="col-xs-3">
+						<button type="button" class="btn btn-info">/</button>
+						<button type="button" class="btn btn-info">x</button>
+						<button type="button" class="btn btn-info">-</button>
+						<button type="button" class="btn button-xl btn-info">+</button>
+					</div>
+				</div>
+			</div>
+			<div class="side back">
+				<h3>Made by:<a href="http://jaydurant.github.io/Portfolio_Site/"> Jason Durant</a></h3>
+				<p><a href="https://github.com/jaydurant/JS-Calculator">Project Repo</a></p>
+				<h4><strong>Technology Used</strong></h4>
+				<ul class="text-left">
+					<li><strong>Javascript:</strong>Javascript: adds functionality to calculator and facilitate animations</li>
+					<li><strong>Node.js:</strong> js environment used in conjunction with NPM</li>
+					<li><strong>Browserify:</strong> client-side javascript to be stored as modules using the CommonJS module format</li>
+					<li><strong><a href="https://github.com/ryanburgess/sassysass">SassySass:</a></strong> sass smacss framework used to modularize sass code</li>
+					<li><strong>Bootstrap:</strong> adds styles and grid structure to elements</li>
+					<li><strong>Gulp:</strong> build tool used to concat, minify, and organize files</li>
+				</ul>
+			</div>
+			<div class="side left">
+			</div>
 
+		</div>
+	</section>
+	<footer class="text-center">
+		<ul>
+			<li><a href="https://www.linkedin.com/in/durantjason"><i class="fa fa-linkedin-square" title="LinkedIn profile link"></i>
+LinkedIn</a></li>
+			<li><a href="https://twitter.com/JasonHDurant" title="Twitter profile link"><i class="fa fa-twitter-square"></i>Twitter</a></li>
+			<li><a href="https://github.com/jaydurant" title="Github profile link"><i class="fa fa-github"></i>Github</a></li>
+		</ul>
+	</footer>
+	<script type="text/javascript" src="js/app.js"></script>
 </body>
 </html>
