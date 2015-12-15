@@ -4,7 +4,7 @@
 The goal of the project was to make a web app which displays a full functional pocket calculator by leveraging several industry standard front-end tools.
 
 ##Tools used in this project
-- **javascript**: utilized to interact with the DOM to create listen for events and execute callbacks which allow for the user to interact with the calculator
+- **Javascript**: utilized to interact with the DOM to create listen for events and execute callbacks which allow for the user to interact with the calculator
 - **Node.js**: utilizing node.js to work various npm packages which help streamline my workflow
 - **Gulp**: utilize Gulp to concat, minify, parse, add prefixes, and compile sass and javascripts files
 - **Broswerify**: utitlize browserify to use the CommonJS modules fortmat to modularize my js functions and variables to make code which is resuable and scalable
