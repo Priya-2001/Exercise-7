@@ -20,21 +20,13 @@
   @include button-size($padding-base-vertical, $padding-base-horizontal, $font-size-base, $line-height-base, $btn-border-radius-base);
   @include user-select(none);
 
-  &,
   &:active,
   &.active {
-    &:focus,
-    &.focus {
-      @include tab-focus;
-    }
+
   }
 
-  &:hover,
-  &:focus,
-  &.focus {
-    color: $btn-default-color;
-    text-decoration: none;
-  }
+
+
 
   &:active,
   &.active {
@@ -106,25 +98,11 @@ a.btn {
     background-color: transparent;
     @include box-shadow(none);
   }
-  &,
-  &:hover,
-  &:focus,
-  &:active {
-    border-color: transparent;
-  }
-  &:hover,
-  &:focus {
-    color: $link-hover-color;
-    text-decoration: $link-hover-decoration;
-    background-color: transparent;
-  }
+
+
   &[disabled],
   fieldset[disabled] & {
-    &:hover,
-    &:focus {
-      color: $btn-link-disabled-color;
-      text-decoration: none;
-    }
+
   }
 }
 
