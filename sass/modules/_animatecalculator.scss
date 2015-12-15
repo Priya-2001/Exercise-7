@@ -1,18 +1,21 @@
 
 .rotate-left{
-animation: .75s linear 0s 1 normal forwards running rotateleft;
+	@include animation('.75s linear 0s 1 normal forwards running rotateleft');
+
 }
 
-@keyframes rotateleft {
+@include keyframes(rotateleft){
 	from { transform: rotateY(0); }
 	to { transform: rotateY(180deg); }
 }
 
+
 .rotate-right{
-	animation:.75s linear 0s 1 normal forwards running rotateright;
+	@include animation('.75s linear 0s 1 normal forwards running rotateright');
 }
 
-@keyframes rotateright {
+@include keyframes(rotateright){
 	from{transform: rotateY(180deg);}
 	to{transform: rotateY(0deg);}
 }
+
