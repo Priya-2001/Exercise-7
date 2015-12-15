@@ -1,0 +1,36 @@
+footer{
+	position:absolute;
+	bottom:0;
+	width:$fill-container;
+	background-color:rgba(0, 0, 0, 0.8);
+	padding:5px 0;
+
+	ul{
+		padding:0;
+	}
+
+	li{
+		@include inline-block();
+
+		&:nth-child(1){
+			padding: 0 5px;
+	}
+
+	}
+
+	li~li{
+		margin-left:1%;
+	}
+
+	li > a{
+		color:#fff;
+
+	}
+
+		
+		
+}
+
+i{
+	padding-right:5px;
+}

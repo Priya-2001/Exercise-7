@@ -1,0 +1,30 @@
+.buttons-container{
+	margin-top:20px;
+}
+
+button{
+	width:50px;
+	height:40px;
+	margin:3px;
+
+	&:focus,&:active{
+		outline:0;
+	}
+}
+
+.button-xl{
+	height:83px
+}
+
+.mfc-container{
+	padding-top:60px;
+}
+
+.mfc-btn{
+	@include inline-block();
+	@include rem("font-size",30);
+	width:200px;
+	padding:0;
+	padding-bottom:1px;
+	vertical-align:middle;
+}

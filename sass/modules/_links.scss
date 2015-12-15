@@ -1,0 +1,16 @@
+a {
+	@include inline-block();
+	@include animate-link($link-color, $ubuntu, $midlargeSize);
+	border-style:none;
+
+	&:focus,&:hover{
+			text-decoration:none;
+		}
+
+	@include max-breakpoint($sassySmall){
+		@include rem("font-size",$midSize);
+	}
+
+	
+
+}
