@@ -1,6 +1,6 @@
 
 .rotate-left{
-	@include animation('0.75s linear 0s 1 normal forwards running rotateleft');
+	@include animation('0.75s linear 0s 1 normal forwards rotateleft');
 
 }
 
@@ -11,7 +11,7 @@
 
 
 .rotate-right{
-	@include animation('0.75s linear 0s 1 normal forwards running rotateright');
+	@include animation('0.75s linear 0s 1 normal forwards rotateright');
 }
 
 @include keyframes(rotateright){

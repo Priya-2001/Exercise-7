@@ -24,7 +24,7 @@ hgroup,
 main,
 menu,
 nav,
-section, 
+section,
 summary {
   display: block; }
 
@@ -7856,51 +7856,43 @@ a {
       font-size: 1.5625rem; } }
 
 .rotate-left {
-  -webkit-animation: 0.75s linear 0s 1 normal forwards running rotateleft;
-  -moz-animation: 0.75s linear 0s 1 normal forwards running rotateleft;
-  -ms-animation:0.75s linear 0s 1 normal forwards running rotateleft;
-  animation: 0.75s linear 0s 1 normal forwards running rotateleft; }
+  -webkit-animation: 0.75s linear 0s 1 normal forwards rotateleft;
+  animation: 0.75s linear 0s 1 normal forwards rotateleft; }
 
 @-webkit-keyframes rotateleft {
   from {
-    -webkit-transform: rotateY(0deg);
-             }
+    -webkit-transform: rotateY(0);
+            transform: rotateY(0); }
   to {
     -webkit-transform: rotateY(180deg);
-             } }
+            transform: rotateY(180deg); } }
 
 @keyframes rotateleft {
   from {
-    -moz-transform: rotateY(0deg);
-    -ms-transform: rotateY(0deg);
-            transform: rotateY(0deg); }
+    -webkit-transform: rotateY(0);
+            transform: rotateY(0); }
   to {
-    -moz-transform: rotateY(180deg);
-    -ms-transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
             transform: rotateY(180deg); } }
 
 .rotate-right {
-  -webkit-animation: 0.75s linear 0s 1 normal forwards running rotateright;
-  -ms-animation:0.75s linear 0s 1 normal forwards running rotateright;
-  -mos-animation:0.75s linear 0s 1 normal forwards running rotateright;
-  animation: 0.75s linear 0s 1 normal forwards running rotateright; }
+  -webkit-animation: 0.75s linear 0s 1 normal forwards rotateright;
+  animation: 0.75s linear 0s 1 normal forwards rotateright; }
 
 @-webkit-keyframes rotateright {
   from {
     -webkit-transform: rotateY(180deg);
-             }
+            transform: rotateY(180deg); }
   to {
     -webkit-transform: rotateY(0deg);
-             } }
+            transform: rotateY(0deg); } }
 
 @keyframes rotateright {
   from {
-    -moz-transform: rotateY(180deg);
-    -ms-transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
             transform: rotateY(180deg); }
   to {
-    -moz-transform: rotateY(0deg);
-    -ms-transform: rotateY(0deg);
+    -webkit-transform: rotateY(0deg);
             transform: rotateY(0deg); } }
 
 * {
