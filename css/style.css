@@ -7856,8 +7856,8 @@ a {
       font-size: 1.5625rem; } }
 
 .rotate-left {
-  -webkit-animation: .75s linear 0s 1 normal forwards running rotateleft;
-  animation: .75s linear 0s 1 normal forwards running rotateleft; }
+  -webkit-animation: 0.75s linear 0s 1 normal forwards running rotateleft;
+  animation: 0.75s linear 0s 1 normal forwards running rotateleft; }
 
 @-webkit-keyframes rotateleft {
   from {
@@ -7876,8 +7876,8 @@ a {
             transform: rotateY(180deg); } }
 
 .rotate-right {
-  -webkit-animation: .75s linear 0s 1 normal forwards running rotateright;
-  animation: .75s linear 0s 1 normal forwards running rotateright; }
+  -webkit-animation: 0.75s linear 0s 1 normal forwards running rotateright;
+  animation: 0.75s linear 0s 1 normal forwards running rotateright; }
 
 @-webkit-keyframes rotateright {
   from {
