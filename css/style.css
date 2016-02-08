@@ -24,7 +24,7 @@ hgroup,
 main,
 menu,
 nav,
-section,
+section, 
 summary {
   display: block; }
 
@@ -7861,18 +7861,20 @@ a {
 
 @-webkit-keyframes rotateleft {
   from {
-    -webkit-transform: rotateY(0);
-            transform: rotateY(0); }
+    -webkit-transform: rotateY(0deg);
+             }
   to {
     -webkit-transform: rotateY(180deg);
-            transform: rotateY(180deg); } }
+             } }
 
 @keyframes rotateleft {
   from {
-    -webkit-transform: rotateY(0);
-            transform: rotateY(0); }
+    -moz-transform: rotateY(0deg);
+    -ms-transform: rotateY(0deg);
+            transform: rotateY(0deg); }
   to {
-    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -ms-transform: rotateY(180deg);
             transform: rotateY(180deg); } }
 
 .rotate-right {
@@ -7882,17 +7884,19 @@ a {
 @-webkit-keyframes rotateright {
   from {
     -webkit-transform: rotateY(180deg);
-            transform: rotateY(180deg); }
+             }
   to {
     -webkit-transform: rotateY(0deg);
-            transform: rotateY(0deg); } }
+             } }
 
 @keyframes rotateright {
   from {
-    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -ms-transform: rotateY(180deg);
             transform: rotateY(180deg); }
   to {
-    -webkit-transform: rotateY(0deg);
+    -moz-transform: rotateY(0deg);
+    -ms-transform: rotateY(0deg);
             transform: rotateY(0deg); } }
 
 * {
