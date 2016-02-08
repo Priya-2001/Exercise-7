@@ -7857,6 +7857,8 @@ a {
 
 .rotate-left {
   -webkit-animation: 0.75s linear 0s 1 normal forwards running rotateleft;
+  -moz-animation: 0.75s linear 0s 1 normal forwards running rotateleft;
+  -ms-animation:0.75s linear 0s 1 normal forwards running rotateleft;
   animation: 0.75s linear 0s 1 normal forwards running rotateleft; }
 
 @-webkit-keyframes rotateleft {
@@ -7879,6 +7881,8 @@ a {
 
 .rotate-right {
   -webkit-animation: 0.75s linear 0s 1 normal forwards running rotateright;
+  -ms-animation:0.75s linear 0s 1 normal forwards running rotateright;
+  -mos-animation:0.75s linear 0s 1 normal forwards running rotateright;
   animation: 0.75s linear 0s 1 normal forwards running rotateright; }
 
 @-webkit-keyframes rotateright {
