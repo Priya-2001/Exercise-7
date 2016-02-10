@@ -34,3 +34,9 @@ footer{
 i{
 	padding-right:5px;
 }
+
+@media screen and (orientation:landscape){
+	footer{
+		position:relative;
+	}
+}
