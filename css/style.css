@@ -7756,7 +7756,7 @@ footer {
 i {
   padding-right: 5px; }
 
-@media screen and (orientation: landscape) {
+@media screen and (handheld) and (orientation: landscape) {
   footer {
     position: relative; } }
 
